@@ -1,0 +1,55 @@
+# PROJET — BOTTLENECK
+
+<h1>Analyse des données commerciales et optimisation de la gestion des stocks chez BottleNeck</h1>
+
+<h3>Scénario</h3>
+
+<p>Aujourd’hui est un grand jour, vous commencez votre mission en tant qu’analyste chez BottleNeck, un marchand de vin prestigieux.</p>
+
+<p>Nicolas, votre manager sur cette mission, vous accueille chaleureusement et vous propose de partager un café avec le reste de l’équipe du service. L’ambiance est bonne et vous voilà déjà parfaitement intégré dans cette équipe détendue mais professionnelle.</p>
+
+<figure>
+<a href="https://user.oc-static.com/upload/2020/11/23/16061348800222_Capture%20d%E2%80%99e%CC%81cran%202020-11-23%20a%CC%80%2013.33.23.png" class="oc-imageLink oc-imageLink--disabled">
+<img src="https://user.oc-static.com/upload/2020/11/23/16061348800222_Capture%20d%E2%80%99e%CC%81cran%202020-11-23%20a%CC%80%2013.33.23.png" alt="Logo de BottleNeck">
+</a>
+<figcaption>Logo de BottleNeck</figcaption>
+</figure>
+
+<p>Après les premières présentations, Nicolas vous explique les enjeux de votre mission et vous transmet les consignes suivantes :</p>
+
+<blockquote>
+
+<p><strong>De :</strong> Nicolas</p>
+<p><strong>À :</strong> Moi</p>
+<p><strong>Objet :</strong> Rapprochement et analyse de nos bouteilles de vin</p>
+
+<p>Hello,</p>
+
+<p>Suite à notre discussion de tout à l’heure au café, je souhaite te briefer sur la mission. Comme tu vas vite t’en rendre compte, nos outils sont artisanaux, nous avons du mal à analyser nos données et la gestion des stocks est complexe.</p>
+
+<p>Ta mission se découpera en 2 phases :</p>
+
+<ul>
+<li><strong>Phase 1 :</strong> Agréger les différents fichiers afin de pouvoir exploiter les données.</li>
+<li><strong>Phase 2 :</strong> Analyser les données pour le CODIR.
+<ul>
+<li>Tu viendras faire la présentation de tes analyses au comité de direction (j’en profiterai pour te présenter à l’équipe de direction de l’entreprise).</li>
+<li>Aligne bien la présentation de tes analyses avec leurs préoccupations et sois synthétique !</li>
+</ul>
+</li>
+</ul>
+
+<p>Actuellement nous utilisons différents exports pour l’analyse :</p>
+
+<ul>
+<li>L’extraction de l’<strong>ERP</strong> (référence produit, prix et état du stock).</li>
+<li>L’extraction de notre <strong>site Web</strong> (SKU, quantités vendues, description des produits, etc.).</li>
+<li>Une <strong>table de liaison</strong> qui permet de lier les références entre la base de données WordPress et l’extraction de l’ERP de l’entreprise.
+<ul>
+<li>Les numéros des références ne correspondent pas entre les deux outils.</li>
+<li>Notre stagiaire a mis à jour cette liste pour toi avec les nouveaux produits.</li>
+</ul>
+</li>
+</ul>
+
+<p>Pour la <strong>phase 1</strong
